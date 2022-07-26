@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from "./pages/vue3/setup 语法糖/useAttrs和useSlots/index.vue";
+import HelloWorld from "./pages/vue3/状态管理/pinia/index.vue";
 </script>
 
 <template>

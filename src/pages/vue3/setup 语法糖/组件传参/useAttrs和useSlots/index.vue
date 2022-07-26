@@ -1,5 +1,5 @@
 <template>
-  <Child name="dd" :msg="demo">
+  <Child nameDemo="dd" :msg="demo">
     <template #top message="信息">
       我是父
       <p>dddd</p>

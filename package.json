@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "pinia": "^2.0.0-rc.10",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.2.37",
+    "vue-imagelazy-dy": "^0.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",
